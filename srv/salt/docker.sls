@@ -13,3 +13,8 @@ docker-group:
     - name: docker
     - addusers:
       - ec2-user
+
+docker-python:
+  pkg.installed:
+    - name: docker
+    - user: root 

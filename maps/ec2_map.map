@@ -1,17 +1,5 @@
 t2_micro:
   - web1:
-    tag:
-      use: www
-      demo: salt
   - web2:
-    tag:
-      use: www
-      demo: salt
   - docker0:
-    tag:
-      use: docker
-      demo: salt
   - docker1:
-    tag:
-      use: docker
-      demo: salt

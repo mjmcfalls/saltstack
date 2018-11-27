@@ -1,4 +1,6 @@
 base:
+  '*':
+    - verifyminion
   'web*':
     - httpd
     - www
