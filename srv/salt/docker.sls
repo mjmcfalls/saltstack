@@ -1,5 +1,6 @@
-httpd:
-  pkg.removed
+docker-python:
+  pip.installed:
+    - name: docker
 
 docker:
   pkg:
@@ -14,7 +15,4 @@ docker-group:
     - addusers:
       - ec2-user
 
-docker-python:
-  pkg.installed:
-    - name: docker
-    - user: root 
+

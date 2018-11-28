@@ -19,3 +19,4 @@ www_run:
     - binds: /var/www/html:/usr/local/apache2/htdocs/
     - replace: True
     - force: True
+    - bg: True
